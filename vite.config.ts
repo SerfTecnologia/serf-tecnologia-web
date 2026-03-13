@@ -21,10 +21,9 @@ export default defineConfig({
     },
   },
 
-  root: path.resolve(PROJECT_ROOT, "client"),
+ root: path.resolve(PROJECT_ROOT, "client"),
 
-  build: {
-    outDir: path.resolve(PROJECT_ROOT, "dist"),
-    emptyOutDir: true,
-  }
+build: {
+  outDir: "../dist",
+  emptyOutDir: true,
 });
